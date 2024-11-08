@@ -35,6 +35,7 @@ public class Maping {
         mp.put(1,"rohan");
         mp.put(3, "rahul");
         mp.put(1, "tanishq");
+        System.out.println("Hello git hub Repo");
         System.out.println(mp);
     }
 }
