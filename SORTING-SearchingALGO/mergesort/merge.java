@@ -3,7 +3,7 @@ public class merge{
     static void merge(int arr[], int l, int mid, int r){
         int n1=mid-l+1;
         int n2=r-mid;
-        int le       ft[]=new int[n1];
+        int left[]=new int[n1];
         int right[]=new int [n2];
         int i,j,k;
         for(i=0;i<n1;i++) left[i]=arr[l+i];
