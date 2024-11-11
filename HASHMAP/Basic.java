@@ -19,6 +19,7 @@ public class Basic {
     System.out.println(map.entrySet());
     for(Integer i : map.keySet()){
         System.out.println("key = "+i+" Values  : "+map.get(i));
+        // printinf changes
     }
     for(var ok: map.entrySet()){
         System.out.println(ok);
