@@ -1,0 +1,4 @@
+input array string >> output SubArray, SubString , max , min  
+fixed size window, Variable size Window 
+1>>! 1st window preparation 
+2>> ! window grow , Shrink , update
