@@ -6,6 +6,7 @@ public class pivot{
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i]+" ");
 		}
+		System.out.println("commit");
 	}
 
 	public static int partition(int[] arr, int si, int ei) {
