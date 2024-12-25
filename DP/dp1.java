@@ -6,7 +6,7 @@ public class dp1{
         Arrays.fill(ar,0);
         System.out.println(rec(n));
         System.out.println(dp(n,ar));
-        System.out.println(tabu(n));
+        System.out.println(tabu(n));  
     }
     public static int dp(int n, int ar[]){
         if(n==0 || n==1){
