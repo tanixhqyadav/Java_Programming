@@ -1,0 +1,10 @@
+if a matrix is of a x b  and another matrix of c x d
+then for matrix multiplication it is complusory the matrix size is gonna be b==c
+and then it will form a matrix of a x d and here no of operation is a x b x d
+what is the question in actual 
+ar[]={1,2,3,4,3} ar.length=5 and it comes with matrix size of n-1 matrices 
+a size= 1x2 b size=2x3 c size=3x4 d size=4x3 now we need to multiply these matrices is such a way that will give the minimum cost 
+and then return the final answer // Here order matter when we multiply matrices 
+i=starting point 
+j=ending point 
+k(start - end)
