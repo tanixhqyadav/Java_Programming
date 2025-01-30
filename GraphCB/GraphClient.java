@@ -10,6 +10,7 @@ public class GraphClient {
         g.AddEdge(5, 6, 7);
         g.AddEdge(5,7,4);
         g.AddEdge(6,7,3);
+        g.noofEdge();
         g.Display();
         // g.removeEdge(0, 0);
     }

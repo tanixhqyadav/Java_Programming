@@ -17,12 +17,13 @@ public class GraphBasic{
     public boolean ContainsVertex(int v1){
         return map.containsKey(v1);
     }
-    public int noofEdge(){
+    public void noofEdge(){
         int no=0;
         for(int vtx:map.keySet()){
             no+=map.get(vtx).size();
         }
-        return no/2;
+        System.out.println(no);
+        // return no/2;
     }
     public void removeEdge(int v1,int v2){
         map.get(v1).remove(v2);

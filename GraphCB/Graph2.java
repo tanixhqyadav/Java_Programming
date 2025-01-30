@@ -140,10 +140,10 @@ public class Graph2{
         g.AddEdge(5, 6, 7);
         g.AddEdge(5,7,4);
         g.AddEdge(6,7,3);
-        System.out.println(g.hasPath(1, 6, visited));
-        g.hasPathprint(1,6,visited,"");
-        System.out.println(g.BFS(1,6));
-        System.out.println(g.DFS(1,6));
+        System.out.println(g.hasPath(1, 4, visited));
+        g.hasPathprint(1,7,visited,"");
+        // System.out.println(g.BFS(1,6));
+        // System.out.println(g.DFS(1,6));
 
         g.Display();
     }
