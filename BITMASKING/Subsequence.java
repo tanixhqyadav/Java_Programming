@@ -1,6 +1,6 @@
 public class Subsequence{
     public static void main(String[] args){
-        String s='abc';
+        String s="abc";
         Print(s);
     }
     public static void Print(String s){
@@ -13,7 +13,7 @@ public class Subsequence{
         int pos=0;
         while(i>0){
             if((i&1)!=0){
-                System.out.println(s.charAt(pos));
+                System.out.print(s.charAt(pos));
             }
             i>>=1;
             pos++;
