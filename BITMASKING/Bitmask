@@ -1,0 +1,6 @@
+&& Logical And  &- Bitwise And
+|| Logical Or |- Bitwise Or
+! Logical Not ~ BitNot
+>> Right
+<< Left 
+& with any number for if 1 then odd and if 0 then even
