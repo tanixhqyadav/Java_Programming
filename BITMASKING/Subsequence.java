@@ -18,7 +18,7 @@ public class Subsequence{
             i>>=1;
             pos++;
         }
-        System.out.println();
+        System.out.println();   
     }
 
 }
